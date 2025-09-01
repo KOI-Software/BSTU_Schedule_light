@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{ 
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.DayNameHolder{
+    flex: 1 1 100%;
+    display: flex;
+    text-align: center;
+    border: 1px solid;
+}
