@@ -21,7 +21,6 @@ header {
     font-size: 20pt;
     margin-bottom: 15px;
 }
-
 .CurrentDateHolder {
     flex: 1 1 100%;
     display: flex;
@@ -29,4 +28,29 @@ header {
     justify-content: center;
     font-size: 17pt;
     margin-bottom: 15px;
+}
+aside{
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center;
+    justify-content: center; */
+    flex:1 1 60%;
+    border: 1px solid;
+}
+.Calendar{
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    border: 1px solid;
+}
+.Notifications{
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content:flex-start;
+    flex:1 1 30%;
+    border: 1px solid;
 }

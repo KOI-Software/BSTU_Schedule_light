@@ -1,5 +1,7 @@
 import './App.css'
+import NotificationComponent from './Components/DesktopNotificationComponent'
 import HeaderComponent from './Components/HeaderComponent'
+import LeftSectionComponent from './Components/LeftDesktopSectionComponent'
 
 function App() {
   
@@ -7,6 +9,8 @@ function App() {
   return (
     <div className='container'>
         <HeaderComponent/>
+        <LeftSectionComponent/>
+        <NotificationComponent/>
     </div>
   )
 }
