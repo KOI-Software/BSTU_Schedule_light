@@ -5,7 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 header {
     flex: 1 1 100%;
     display: flex;
@@ -21,6 +20,7 @@ header {
     font-size: 20pt;
     margin-bottom: 15px;
 }
+
 .CurrentDateHolder {
     flex: 1 1 100%;
     display: flex;
@@ -29,28 +29,80 @@ header {
     font-size: 17pt;
     margin-bottom: 15px;
 }
-aside{
-    height: 100px;
+
+aside {
+    height: fit-content;
     display: flex;
     flex-flow: row wrap;
     /* align-items: center;
     justify-content: center; */
-    flex:1 1 60%;
-    border: 1px solid;
+    flex: 1 1 60%;
+    /* border: 1px solid; */
 }
-.Calendar{
+
+.Calendar {
     flex: 1 1 100%;
     display: flex;
     flex-flow: row wrap;
     height: 50px;
-    border: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    color: grey;
+    align-items: center;
+    justify-content: center;
 }
-.Notifications{
-    height: 100px;
+
+.Notifications {
     display: flex;
     flex-flow: row wrap;
-    align-items:center;
-    justify-content:flex-start;
-    flex:1 1 30%;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1 30%;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardsContainer {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    border-right: 1px solid;
+}
+
+.Card {
+    display: flex;
+    flex-flow: row wrap;
     border: 1px solid;
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.TimeSide {
+    border-right: 3px solid;
+    flex: 1 1 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.TimeSide p {
+    flex: 1 1 100%;
+    display: inline;
+    margin: 0;
+    text-align: center;
+}
+
+.ContentSide {
+    flex: 1 1 80%;
+    display: flex;
+    flex-flow: row wrap;
 }
